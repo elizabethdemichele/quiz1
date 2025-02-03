@@ -2,8 +2,8 @@
 def cal_lotes(n):
     lotes = []
     for i in range(n):
-        temperatura = float(input("Por favor ingrese una temperatura: "))
-        concentracion = float(input("Por favor ingrese una concentración: "))
+        temperatura = int(input("Por favor ingrese una temperatura: "))
+        concentracion = int(input("Por favor ingrese una concentración: "))
         lotes.append((temperatura, concentracion))
     temperatura_mayor_cien = 0
     temperatura_promedio = 0
